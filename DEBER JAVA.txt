@@ -1,0 +1,50 @@
+package main;
+
+/**DEBER
+ *3 objetos de una clase 
+ 
+ */
+public class MAIN {
+    
+    public static void main(String[] args) {
+    
+        System.out.println("HOLA MUNDO");
+        Animal LEON= new Animal("CUALQUIER COSA","SI");
+        LEON.informacion();
+        Animal LEON1= new Animal("CUALQUIER COSA","SI");
+        LEON1.informacion();
+        Animal LEON2= new Animal("CUALQUIER COSA","SI");
+        LEON2.informacion();
+        Animal LEON3= new Animal("CUALQUIER COSA","SI");
+        LEON3.informacion();
+        Animal LEON4= new Animal("CUALQUIER COSA","SI");
+        LEON4.informacion();
+        Animal LEON5= new Animal("CUALQUIER COSA","SI");
+        LEON5.informacion();
+    }
+    
+}
+
+
+
+package main;
+
+/**
+ *
+ 
+ */
+public class Animal {
+    public String Especie;
+    public String Nombre;
+
+    public Animal(String Especie, String Nombre) {
+        this.Especie = Especie;
+        this.Nombre = Nombre;
+    }
+    
+   
+    
+    public void informacion() {
+        System.out.println("El Nombre es "+Nombre+"  Y LA ESPECIE ES: "+Especie);
+    }
+}
